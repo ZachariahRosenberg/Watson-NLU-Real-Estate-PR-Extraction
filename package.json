@@ -1,0 +1,18 @@
+{
+  "name": "watson",
+  "version": "1.0.0",
+  "description": "playing with watson NLU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZR",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.9.3",
+    "watson-developer-cloud": "^2.28.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  }
+}
