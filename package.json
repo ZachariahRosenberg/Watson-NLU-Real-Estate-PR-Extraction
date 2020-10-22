@@ -4,15 +4,13 @@
   "description": "playing with watson NLU",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "ZR",
   "license": "ISC",
   "dependencies": {
+    "ibm-watson": "^5.7.1",
     "mongoose": "^4.9.3",
     "watson-developer-cloud": "^2.28.0"
-  },
-  "devDependencies": {
-    "lodash": "^4.17.4"
   }
 }
