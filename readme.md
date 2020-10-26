@@ -31,3 +31,8 @@ If we want to scrape articles between `/0` and `/6000`, we would run:
 `npm run start -- --0 --6000`
 
 The first set of `--` is important. The first arg is your low index and the second arg is the high. The scrape starts with the most recent (the high arg) and decrements all the way down until the low index or zero. 
+
+
+## Future Direction
+
+Given a collection of people objects, and their known associations, we could run a PageRank like algorithm to rank how influential individual people are in the greater network.
